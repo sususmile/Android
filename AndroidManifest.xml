@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ttms"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="26" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:fitsSystemWindows="true">
+        
+        <activity
+            android:name=".LaunchActivity">          
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginInActivity"
+            android:theme="@style/myStyle"
+             android:label="@string/app_name">          
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/myStyle">          
+        </activity>
+        <activity
+            android:name=".FPwdActivity"
+            android:theme="@style/myStyle">          
+        </activity>
+        <activity
+            android:name=".RegistActivity"
+            android:theme="@style/myStyle">          
+        </activity>
+        <activity
+            android:name=".CinemaActivity"
+            android:theme="@style/myStyle">          
+        </activity>
+        <activity
+            android:name=".PersonalActivity"
+            android:theme="@style/myStyle">          
+        </activity>
+        <activity
+            android:name=".DiscountActivity"
+            android:theme="@style/myStyle">          
+        </activity>
+        <activity
+            android:name=".OrderActivity"
+            android:theme="@style/myStyle">          
+        </activity>
+        <activity
+            android:name=".ChangeInfoActivity"
+            android:theme="@style/myStyle">          
+        </activity>
+        <activity
+            android:name=".ChangePwdActivity"
+            android:theme="@style/myStyle">          
+        </activity>
+        <activity
+            android:name=".BoughtActivity"
+            android:theme="@style/myStyle">          
+        </activity>
+    </application>
+
+</manifest>
